@@ -616,6 +616,10 @@ RDEPENDS_packagegroup-meta-oe-multimedia ="\
     alsa-oss \
     ${@bb.utils.contains("LICENSE_FLAGS_WHITELIST", "commercial", "faad2", "", d)} \
     cdrkit \
+    dirsplit \
+    genisoimage \
+    icedax \
+    wodim \
     id3lib \
     audiofile \
     a2jmidid \
