@@ -207,7 +207,7 @@ RDEPENDS_packagegroup-meta-oe-kernel_remove_riscv64 = "crash oprofile"
 RDEPENDS_packagegroup-meta-oe-kernel_remove_riscv32 = "crash oprofile"
 
 RDEPENDS_packagegroup-meta-oe-multimedia ="\
-    alsa-oss audiofile cdrkit id3lib \
+    alsa-oss audiofile dirsplit genisoimage icedax wodim id3lib \
     a2jmidid jack libass libburn libcdio libcdio-paranoia \
     libdvdread libmms libmodplug libopus live555 \
     mplayer-common opus-tools \
